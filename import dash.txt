@@ -1,0 +1,9 @@
+import dash
+from dash import html
+from dash import dcc
+
+app=dash.Dash()
+app.layout=html.Div()
+
+
+app.run_server()
